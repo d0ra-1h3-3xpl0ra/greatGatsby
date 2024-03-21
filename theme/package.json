@@ -1,0 +1,67 @@
+{
+  "name": "@react95/gatsby-theme",
+  "version": "2.2.1",
+  "description": "A React95 theme for your Gatsby blog",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "react",
+    "react95",
+    "nostalgic",
+    "windows95",
+    "blog"
+  ],
+  "author": "ggdaltoso <ggdaltoso@gmail.com>",
+  "homepage": "https://react95.github.io/gatsby-theme",
+  "license": "MIT",
+  "dependencies": {
+    "@gatsbyjs/reach-router": "2.0.1",
+    "@mdx-js/mdx": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@react95/core": "^7.0.2",
+    "@react95/gatsby-theme": "^2.2.1",
+    "@xstyled/styled-components": "^3.8.0",
+    "babel-plugin-styled-components": "^2.1.1",
+    "cross-env": "^7.0.3",
+    "gatsby-link": "^5.8.0",
+    "gatsby-plugin-mdx": "^5.8.0",
+    "gatsby-plugin-mdx-frontmatter": "^0.0.4",
+    "gatsby-plugin-react-helmet": "^6.8.0",
+    "gatsby-plugin-styled-components": "^6.8.0",
+    "gatsby-plugin-typescript": "^5.8.0",
+    "gatsby-react-router-scroll": "^6.8.0",
+    "gatsby-remark-prismjs": "^7.9.0",
+    "gatsby-source-filesystem": "^5.8.0",
+    "lodash.startcase": "^4.4.0",
+    "object-path": "^0.11.8",
+    "prismjs": "^1.29.0",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.9",
+    "ts-loader": "^9.4.2"
+  },
+  "peerDependencies": {
+    "@react95/core": "^7.0.1",
+    "@react95/icons": "^2.1.0",
+    "gatsby": "^5.0.0",
+    "styled-components": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/React95/gatsby-theme.git"
+  },
+  "scripts": {
+    "develop": "cross-env THEME_STANDALONE=true gatsby develop -o",
+    "start": "gatsby develop",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "react95-gatsby-theme-workspace",
+  "private": true,
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspace example build",
+    "serve": "yarn workspace example serve",
+    "develop": "yarn workspace example develop"
+  },
+  "workspaces": [
+    "theme",
+    "example"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d0ra-1h3-3xpl0ra/greatGatsby.git"
+  },
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  },
+  "dependencies": {
+    "@react95/core": "^7.0.1",
+    "@react95/icons": "^2.1.0"
+  }
+}
